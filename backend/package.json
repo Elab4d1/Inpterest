@@ -1,12 +1,31 @@
 {
-  "name": "backend",
+  "name": "inpeterst",
+  "private": true,
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "package.json",
+  "author": "hassan Almeftah <hassanflv@gmail.com>",
+  "license": "UNLICENSED",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sanity start",
+    "build": "sanity build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.25.1",
+    "@sanity/core": "^2.25.0",
+    "@sanity/default-layout": "^2.25.1",
+    "@sanity/default-login": "^2.24.1",
+    "@sanity/desk-tool": "^2.25.3",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/vision": "^2.25.1",
+    "eslint": "^8.6.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {}
 }
